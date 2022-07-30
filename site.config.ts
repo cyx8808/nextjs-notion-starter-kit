@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Yuxiang Personel Web',
-  domain: 'https://www.notion.so/ccdt/Personal-Web-c476c317b32a47c2ba339c755eaf554e',
+  domain: 'https://ccdt.notion.site/Personal-Web-c476c317b32a47c2ba339c755eaf554e',
   author: 'Yuxiang',
 
   // open graph metadata (optional)
