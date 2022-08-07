@@ -41,11 +41,11 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/blog': '5a64b3160f2b4cfc896568de96c80917'
+    // '/gallery': '3cfc8a24c92741b3b361c45e0f747828'
+  },
+  //pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
@@ -53,12 +53,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
   {
-      title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-     },
-     {
-       title: 'Contact',
-       pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      title: 'Blog',
+      pageId: '5a64b3160f2b4cfc896568de96c80917'
      }
+    //  {
+    //    title: 'Gallery',
+    //    pageId: '3cfc8a24c92741b3b361c45e0f747828'
+    //  }
    ]
 })
