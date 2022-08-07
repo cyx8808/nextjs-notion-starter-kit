@@ -42,7 +42,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/blog': '5a64b3160f2b4cfc896568de96c80917'
+    // '/blog': '5a64b3160f2b4cfc896568de96c80917'
     // '/gallery': '3cfc8a24c92741b3b361c45e0f747828'
   },
   //pageUrlOverrides: null,
@@ -52,10 +52,10 @@ export default siteConfig({
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-  {
-      title: 'Blog',
-      pageId: '5a64b3160f2b4cfc896568de96c80917'
-     }
+    // {
+    //   title: 'Blog',
+    //   pageId: '5a64b3160f2b4cfc896568de96c80917'
+    //  }
     //  {
     //    title: 'Gallery',
     //    pageId: '3cfc8a24c92741b3b361c45e0f747828'
